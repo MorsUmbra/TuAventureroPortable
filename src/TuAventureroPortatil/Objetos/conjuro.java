@@ -3,11 +3,11 @@ package TuAventureroPortatil.Objetos;
 public class conjuro {
 
     String name;
-    String componentes;
     String tipo;
+    String componentes;
     String condicionDeActivacion;
     String resistenciaConjuros;
-    habilidad deConjuro;
+    TuAventureroPortatil.Objetos.SubObjetos.habilidad[] habilidad;
     int nivel;
     int nivelNecesario;
 

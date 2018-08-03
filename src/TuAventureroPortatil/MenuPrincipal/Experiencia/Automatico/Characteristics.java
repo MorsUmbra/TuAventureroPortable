@@ -1,7 +1,7 @@
 package TuAventureroPortatil.MenuPrincipal.Experiencia.Automatico;
 
 import TuAventureroPortatil.Objetos.caracteristica;
-import TuAventureroPortatil.Objetos.dado;
+import TuAventureroPortatil.Objetos.SubObjetos.dado;
 
 public class Characteristics {
 

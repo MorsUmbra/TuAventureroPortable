@@ -1,4 +1,4 @@
-package TuAventureroPortatil.MenuPrincipal.GeneradorDeCaracteristicas;
+package TuAventureroPortatil.MenuPrincipal.Generadores.Caracteristicas;
 
 public class estandar {
 

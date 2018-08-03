@@ -3,7 +3,7 @@ package TuAventureroPortatil.Libros.Pathfinder.Clases;
 import NombreDelProgramaPendiente.HojaDePersonaje.Personaje.personaje;
 import TuAventureroPortatil.Objetos.clase;
 import TuAventureroPortatil.Objetos.dote;
-import TuAventureroPortatil.Objetos.habilidad;
+import TuAventureroPortatil.Objetos.SubObjetos.habilidad;
 
 public class barbaro {
 
@@ -19,5 +19,4 @@ public class barbaro {
     private void generarHabilidades(personaje estandar){
 
     }
-
 }

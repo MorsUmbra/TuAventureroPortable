@@ -18,20 +18,24 @@ public class caracteristica {
         return base;
     }
 
+
     // Metodo que devuelve el valor de bonificador.
     public int returnBonificador(){
         return bonificador;
     }
+
 
     // Metodo que modifica el valor base.
     public void modificarBase(int entero){
         base = base + entero;
     }
 
+
     // Metodo que modifica el valor del modificador
     public void modificarBonificador(int entero){
         bonificador = bonificador + entero;
     }
+
 
     // Metodo que imprime los valores de base y bonificador.
     public void print(){

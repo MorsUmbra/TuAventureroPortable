@@ -1,4 +1,4 @@
-package TuAventureroPortatil.Objetos;
+package TuAventureroPortatil.Objetos.SubObjetos;
 
 public class modificador {
 

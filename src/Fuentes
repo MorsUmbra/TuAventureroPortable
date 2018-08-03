@@ -1,0 +1,17 @@
+Pathfinder:
+            Caracteristicas:
+                            - "FUE"
+                            - "DES"
+                            - "CON"
+                            - "INT"
+                            - "SAB"
+                            - "CAR"
+
+            Habilidades:
+                            - ""
+            Ataque:
+                    - "Ataque base"
+            Defensa:
+                    - "CA"
+                    - "Salvacion Fort"
+                    - "Salvacion "

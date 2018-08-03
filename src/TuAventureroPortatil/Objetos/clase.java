@@ -1,14 +1,17 @@
 package TuAventureroPortatil.Objetos;
 
+import TuAventureroPortatil.Objetos.SubObjetos.habilidad;
+
 public class clase {
 
     // Objeto Clase.
     String name;
     String[] maestrias;
-    habilidad[] hDeClase;
-    dote[] dDeClase;
+    TuAventureroPortatil.Objetos.SubObjetos.habilidad[] habilidad;
+    dote[] dote;
     int nivel;
-    int rangosDeHabilidades;
+    int rangos;
+
 
     // Generador de Objeto Clase.
     public clase(String name){
@@ -30,19 +33,19 @@ public class clase {
 
     // Metodo que define las habilidades de la clase.
     public void setHabilidadesDeClase(habilidad[] habilidades){
-        hDeClase = habilidades;
+        this.habilidad = habilidades;
     }
 
 
     // Metodo que define los dotes de la clase.
     public void setDotesDeClase(dote[] dotes){
-        dDeClase = dotes;
+        this.dote = dotes;
     }
 
 
     // Metodo que define los rangos de habilidades por nivel.
     public void setRangosDeHabilidades(int rangos){
-        rangosDeHabilidades = rangos;
+        this.rangos = rangos;
     }
 
 

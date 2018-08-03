@@ -1,21 +1,24 @@
 package TuAventureroPortatil.Objetos;
 
+import TuAventureroPortatil.Objetos.SubObjetos.habilidad;
+import TuAventureroPortatil.Objetos.SubObjetos.modificador;
+import TuAventureroPortatil.Objetos.SubObjetos.requisito;
+
 public class dote {
 
 
     String name;
     requisito requisitos;
-    habilidad deDote;
+    TuAventureroPortatil.Objetos.SubObjetos.habilidad[] habilidad;
     modificador bonificador;
     modificador penalizador;
 
 
-
     // Metodo Constructor
-    public dote(String name, requisito requisitos, habilidad deDote){
+    public dote(String name, requisito requisitos, habilidad[] deDote){
         this.name = name;
         this.requisitos = requisitos;
-        this.deDote = deDote;
+        this.habilidad = deDote;
     }
 
 
@@ -44,8 +47,8 @@ public class dote {
 
 
     // Metodo que devuelve la habilidad del dote.
-    public habilidad returnHabilidad(){
-        return deDote;
+    public habilidad[] returnHabilidad(){
+        return habilidad;
     }
 
 
