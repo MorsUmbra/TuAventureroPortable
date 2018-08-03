@@ -10,7 +10,7 @@ public class barbaro {
     clase barbaro;
     habilidad[] deClase;
 
-    // Metodo Constructor
+    // Metodo Constructor.
     public barbaro(String nombre, int nivel, habilidad[] deClase, dote[] dotes, int modINT){
     }
 
